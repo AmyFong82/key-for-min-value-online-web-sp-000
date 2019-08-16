@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
       sm_key = value
       puts sm_key
     end
-    return key
   }
 end
 
