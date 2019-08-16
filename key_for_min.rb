@@ -3,9 +3,13 @@
 
 def key_for_min_value(name_hash)
   name_hash.each {|key, value|
-    keys = key
-    vals = value
-
+    low_key = key
+    low_val = value
+    if value < low_val
+      low_val = value
+      low_key = key
+    end
+    return low_key
   }
 end
 
