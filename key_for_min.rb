@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   small_key = ""
-  name_hash.collect {|key, value|
+  name_hash.each {|key, value|
     small_val = value
     if value < small_val
       small_key = key
