@@ -6,9 +6,6 @@ def key_for_min_value(name_hash)
     keys = [] << key
     values = [] << value
     sm_val = values[0]
-    if value < sm_val
-      sm_val = value
-    end
     sm_val
   }
 end
