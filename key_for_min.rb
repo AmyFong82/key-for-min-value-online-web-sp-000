@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect {|key, value|
-    sm_key = key
-    sm_val = value
+    keys = key
+    vals = value
   }
 end
 
