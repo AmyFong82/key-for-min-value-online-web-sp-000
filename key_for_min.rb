@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   name_hash.collect {|key, value|
     sm_key = name_hash[key]
     if value < sm_key
-      sm_key = key
+      sm_key = value
       puts sm_key
     end
     return key
