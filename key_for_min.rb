@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
   name_hash.each {|key, value|
     if small_val == [] || small_val > value
       small_val = value
+      small_key = key
     end
   }
   small_key
