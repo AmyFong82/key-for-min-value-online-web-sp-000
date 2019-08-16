@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     sm_key = name_hash[key]
     if value < sm_key
       sm_key = key
+      puts sm_key
     end
     key
   }
